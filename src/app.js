@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {firebase} from './firebase/firebase';
 import AppRouter, { history }  from './routers/AppRouters';
-import {BrowserRouter} from 'react-router-dom';
+//import {BrowserRouter} from 'react-router-dom';
 import configureStore from './stores/configureStore';
 import {login,logout} from './actions/auth';
 import 'normalize.css/normalize.css'
@@ -16,6 +16,7 @@ import './styles/styles.scss'
 
  const store = configureStore();
 
+ 
 const App = ()=> {
    return (
         <Provider store={store}>

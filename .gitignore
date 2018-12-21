@@ -2,5 +2,4 @@
 package-lock.json
 yarn-error.log
 /dist
-.env.development
 .env.test
