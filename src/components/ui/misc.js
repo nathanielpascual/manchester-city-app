@@ -34,7 +34,7 @@ export const Looper = (snapshot) => {
     snapshot.forEach((child)=>{
         array.push({
             id:child.key,
-            ...child
+            ...child.val()
         });
     });
 
