@@ -21,11 +21,11 @@ class Stripes extends Component {
                    delay: 200
                 },
                 {
-                 background : '#98c5e9',
-                 left: 600,
-                 rotate: 25,
-                 top: -498,
-                 delay:400
+                    background : '#98c5e9',
+                    left: 600,
+                    rotate: 25,
+                    top: -498,
+                    delay:400
                 }
            ]
         }

@@ -9,12 +9,10 @@ const MatchesHome = () => {
                 <Tag  
                     background="#0e1731"
                     size="50px"
-                    color="#ffffff" >
+                    color="#ffffff">
                 MATCHES
                 </Tag>
-
                <Blocks/>
-
                 <Tag  
                     background="#ffffff"
                     size="22px"

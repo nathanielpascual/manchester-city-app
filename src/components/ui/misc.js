@@ -8,6 +8,8 @@ export const Tag = (props) => {
                             background:props.background,
                             color:props.color,
                             fontSize:props.size,
+                            margin: props.margin? props.margin : '0',
+                            border: props.border? props.border : '0',
                             padding:'5px 10px',
                             display:'inline-block',
                             fontFamily:'Righteous'    

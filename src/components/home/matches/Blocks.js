@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
 import {firebaseMatches} from '../../../firebase/firebase'
 import {Looper, ReverseArray} from '../../ui/misc';
 import MatchesBlock from '../../ui/MatchesBlock';
 import Slide from 'react-reveal/Slide';
+
 class Blocks extends Component {
 
     state = {
