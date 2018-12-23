@@ -19,9 +19,11 @@ const config = {
   });
 
   const firebaseMatches = database.ref('matches');
+  const firebasePromotions = database.ref('promotions');
 
   export {firebase,
           firebaseMatches,
+          firebasePromotions,
           googleAuthProvider, 
           database as default};
  
